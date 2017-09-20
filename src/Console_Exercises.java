@@ -49,8 +49,17 @@ public class Console_Exercises {
         double perimeter = 2*length + 2 * width;
         System.out.println("the perimeter is " + perimeter);
 
+        scan.nextLine();
 
 
+        for(int counter = 0; counter >= 10; counter ++){
+            if(counter == 5){
+                System.out.println("five");
+                continue;
+            } else if (counter == 8){
+                System.out.println("ocho");
+            }
+        }
 
 
 
