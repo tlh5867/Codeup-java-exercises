@@ -6,7 +6,7 @@ public class MoviesApplication {
         Input input = new Input();
 
 
-
+            //This gives the prompt for command instructions
         System.out.println("What would you like to do?\n" +
                 "\n" +
                 "0 - exit\n" +
@@ -36,7 +36,7 @@ public class MoviesApplication {
         }else if (userInput == 3){
             Movie[] allMovies = MoviesArray.findAll();
             for(Movie movie : allMovies){
-                if(movie.getMovieCat().equals("dram")){
+                if(movie.getMovieCat().equals("drama")){
                     System.out.println(movie.getMovieName());
                 }
             }
@@ -51,6 +51,14 @@ public class MoviesApplication {
             Movie[] allMovies = MoviesArray.findAll();
             for(Movie movie : allMovies){
                 if(movie.getMovieCat().equals("scifi")){
+                    System.out.println(movie.getMovieName());
+                }
+            }
+            //added an else if for the musical category
+        }else if (userInput == 6){
+            Movie[] allMovies = MoviesArray.findAll();
+            for(Movie movie : allMovies){
+                if(movie.getMovieCat().equals("musical")){
                     System.out.println(movie.getMovieName());
                 }
             }
