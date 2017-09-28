@@ -8,10 +8,10 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
-    public int getAreaOfRectangle(){
+    public int getArea(){
         return length * width;
     }
-    public int getPerimeterOfRectangle(){
+    public int getPerimeter(){
        return (2 * length) + (2 * width);
     }
 
