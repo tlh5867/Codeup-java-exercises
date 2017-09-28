@@ -2,7 +2,13 @@ package Shapes;
 
 public class Square extends Rectangle {
     public Square(int side){
-        super(5,5);
+        super(side,side);
     }
+public int getPerimeter(){
+        return this.length*4;
 
+    }
+    public int getArea(){
+    return this.length*this.length;
+    }
 }
