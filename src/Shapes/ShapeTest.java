@@ -10,5 +10,10 @@ public class ShapeTest {
         Rectangle box2 = new Square(8){};
         System.out.println("The perimeter of box 2 is:" + box2.getPerimeter());
         System.out.println("The area of box 2 is:" + box2.getArea());
+
     }
-}
+
+
+    }
+
+
