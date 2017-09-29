@@ -1,6 +1,6 @@
 package Shapes;
 
-public class Rectangle extends Quadrilateral implements Measurable {
+public class Rectangle extends Quadralateral implements Measurable {
     public Rectangle(double length, double width ) {
         super (length, width);
     }
