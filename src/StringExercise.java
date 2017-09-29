@@ -1,4 +1,4 @@
-public class String_Exercise {
+public class StringExercise {
     public static void main(String[] args) {
 //        String message = "we dont need no education\n" +
 //                "We dont need no thought control";
