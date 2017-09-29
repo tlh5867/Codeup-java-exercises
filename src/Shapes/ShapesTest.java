@@ -1,6 +1,6 @@
 package Shapes;
 
-public class ShapeTest {
+public class ShapesTest {
     public static void main(String[] args) {
         Measurable myShape = new Square(5);
         //showshapeinfo calls the method to print out the perimeter and area

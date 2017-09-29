@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MethodExercise {
+public class MethodsExercise {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(add(1,1));
