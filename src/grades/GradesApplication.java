@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class GradesApplication {
     public static void main(String[] args) {
-        // This is the hashmap for the students name, grades, and github id.
+        // This is the Hashmap for the students name, grades, and github id.
         HashMap<String, Student> students = new HashMap<>();
         Input input = new Input();
 
@@ -58,6 +58,10 @@ public class GradesApplication {
         } while (keepGoing.equalsIgnoreCase("y")
                 || (keepGoing.equalsIgnoreCase("yes")));
                 System.out.println("Goodbye !");
+
+        for (Student value : students.values()){
+        System.out.println(students);
+    }
 
     }
 
