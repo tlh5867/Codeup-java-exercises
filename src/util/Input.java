@@ -74,7 +74,8 @@ public class Input {
         scanner = new Scanner(System.in);
     }
 
-    public String getString() {
+    public String getString(String prompt) {
+        System.out.println(prompt);
         String userString = scanner.nextLine();
         return userString;
     }
