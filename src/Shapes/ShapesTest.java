@@ -18,9 +18,7 @@ public class ShapesTest {
     }
 }
 
-        //The reason the code failed to load rectangle the first time was because i was only calling the method of showShapeInfo for Square and not Rectangle
 
-        //
 
 
 

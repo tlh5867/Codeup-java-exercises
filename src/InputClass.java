@@ -7,5 +7,6 @@ public class InputClass {
         int number = input.getInt(1,10);
 
         System.out.println("you entered: " + number);
+
     }
 }
