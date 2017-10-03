@@ -8,11 +8,11 @@ public class Student {
 
     public Student(String name) {
         this.name = name;
-        this.grades = new ArrayList<Integer>();
+        this.grades = new ArrayList<>();
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
     public void addGrade(int grade){
         grades.add(grade);
