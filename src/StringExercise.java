@@ -14,7 +14,7 @@ public class StringExercise {
         String message = "we dont need no education\n" +
                 "We dont need no thought control";
 
-        message += "check \"this\"out!, \"s inside of \"s!";
+        message += " check \"this\"out!, \"s inside of \"s!";
 
         message += "In windows, the main drive is usually C:\\";
 
